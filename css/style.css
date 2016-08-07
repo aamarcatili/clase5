@@ -17,6 +17,8 @@ nav ul li{
 	display: inline-block;
 	line-height: 50px;
 	padding: 0 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;	
 	
 }
 nav a {
@@ -24,6 +26,7 @@ nav a {
 }
 
 /*nav y contc*/
+
 
 .banner {
 	width: 100%;
@@ -37,6 +40,9 @@ h2 {
 	font-size: 45px;
 	font-weight: 400;
 	margin-bottom: 30px;
+	position: relative;
+	left: -10px;
+	top: 6px;
 }
 p {
 	color: grey;
@@ -70,4 +76,40 @@ p {
 	height: 80px;
 	float: right;
 	box-sizing:border-box;
+}
+/*section de servicios*/
+
+.services {
+	height: 200px;
+	width: 900px;
+	margin: 0 20%;
+	}
+
+.server {
+	display: inline-block;
+	float: left;
+	margin:5px 10px;
+	text-align: center;
+	line-height: 23px;
+}
+h4 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+}
+
+.server img{
+	position: relative;
+	left:1px;
+	top: 1px;
+}
+/* split dots */
+.dots {
+	height: 100px;
+	width: 900px;
+	display: inline-block;
+	position: relative;
+	left:670px;
+	margin-top: 90px;
 }
